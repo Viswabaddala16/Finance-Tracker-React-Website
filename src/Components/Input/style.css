@@ -1,0 +1,23 @@
+.label-input{
+    /* margin-bottom: 0.5rem; */
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+.custom-input{
+    padding: .5rem 0rem;
+    border-width: 0;
+    border-bottom-width: 1px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    width: 100%;
+}
+.custom-input:focus{
+    outline: none;
+}
+.custom-input:hover{
+    opacity: 1;
+    transition: all 0.2s;
+}
+.custom-input::placeholder{
+    color: gray;
+}
